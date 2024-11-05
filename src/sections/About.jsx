@@ -14,7 +14,7 @@ const About = () => {
         }, 2000);
     }
     return (
-        <section className='c-space my-20'>
+        <section className='c-space my-20' id='about'>
             <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full'>
                 <div className='col-span-1 xl:row-span-3'>
                     <div className='grid-container'>
@@ -35,7 +35,8 @@ const About = () => {
                         <img src='/assets/grid2.png' alt='grid2' className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
-                            <p className='grid-subtext'>I have extensive experience with Swift/SwiftUI,
+                            <p className='grid-subtext'>
+                                I have extensive experience with Swift/SwiftUI,
                                 React/React Native, Node, Express, MongoDB, Postgres, and Spring,
                                 with a primary specialization in the PERN stack.
                                 I'm always eager to expand my knowledge and explore additional technologies.
@@ -92,7 +93,7 @@ const About = () => {
                         <img
                             src='assets/grid4.png'
                             alt='grid-4'
-                            className='w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top'
+                            className='w-full md:h-[126px] sm:h-[276px] lg:h-[276px] h-fit object-cover sm:object-top'
                         />
                         <div className='space-y-2'>
                             <p className='grid-subtext text-center'>Contact Me</p>
