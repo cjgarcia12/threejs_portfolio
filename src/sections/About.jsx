@@ -93,7 +93,7 @@ const About = () => {
                         <img
                             src='assets/grid4.png'
                             alt='grid-4'
-                            className='w-full md:h-[126px] sm:h-[276px] lg:h-[276px] h-fit object-cover sm:object-top'
+                            className='w-full md:h-[126px] sm:h-[276px] object-cover sm:object-top'
                         />
                         <div className='space-y-2'>
                             <p className='grid-subtext text-center'>Contact Me</p>
