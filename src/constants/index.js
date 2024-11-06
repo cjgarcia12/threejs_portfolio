@@ -99,7 +99,7 @@ export const myProjects = [
         subdesc: 'This project showcases expertise in e-commerce design and custom Shopify app development. The app provides a seamless discounting feature for customers, enhancing the shopping experience and adding flexibility to product bundling.',
         href: 'https://www.cococlem.com/pages/mix-match-15-off',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/cococlem-logo.png',
+        logo: '/assets/cococlem-logo.avif',
         logoStyle: {
             backgroundColor: '#FFE5D9',
             border: '0.2px solid #FFB6A9',
@@ -141,7 +141,7 @@ export const myProjects = [
             border: '0.2px solid #1A8CD8',
             boxShadow: '0px 0px 60px 0px #1DA1F24D',
         },
-        spotlight: '/assets/spotlight-twitter-clone.png',
+        spotlight: '/assets/spotlight3.png',
         tags: [
             {
                 id: 1,
