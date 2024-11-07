@@ -60,7 +60,7 @@ export const myProjects = [
     {
         title: 'Rep4y - P2P Recurring Payments App',
         desc: 'Rep4y is a peer-to-peer payment platform designed to simplify shared expenses by automating recurring payments between users. Whether it’s splitting bills, subscriptions, or shared services, Rep4y makes managing monthly payments seamless.',
-        subdesc: 'Built as a robust full-stack application with PERN (PostgreSQL, Express, React, Node.js) and enhanced with Supabase for authentication and data management, Rep4y provides a secure, user-friendly experience for all types of recurring payments.',
+        subdesc: 'Built as a robust full-stack application with Supabase, React, Node.js, Shadcn, and TailwindCSS. Rep4y provides a secure, user-friendly experience for all types of recurring payments.',
         href: 'http://rep4y.com/',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
