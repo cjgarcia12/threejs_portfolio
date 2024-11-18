@@ -203,7 +203,44 @@ export const myProjects = [
                 path: '/assets/desktop-app.png',
             },
         ],
+    },
+    {
+        title: 'Pathfinding Visualizer - Interactive React Application',
+        desc: 'This Pathfinding Visualizer is a React-based interactive tool for exploring pathfinding algorithms. It allows users to see how algorithms like BFS and DFS traverse through a maze to find a path from start to end.',
+        subdesc: 'Developed with React 18 and Vite, this application features real-time visualization of algorithmic path exploration, customizable maze sizes, and interactive maze generation, providing an engaging educational experience.',
+        href: 'https://cjgarcia12.github.io/pathfinding-visualizer/',
+        texture: '/textures/project/project6.mp4',
+        logo: '/assets/pathfinding-logo.png',
+        logoStyle: {
+            backgroundColor: '#61DAFB',
+            border: '0.2px solid #20232A',
+            boxShadow: '0px 0px 60px 0px #A3CEE44D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Vite',
+                path: '/vite.svg',
+            },
+            {
+                id: 3,
+                name: 'Breadth-First Search',
+                path: '/assets/bfs.png',
+            },
+            {
+                id: 4,
+                name: 'Depth-First Search',
+                path: '/assets/dfs.png',
+            },
+        ],
     }
+
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
