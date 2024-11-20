@@ -1,7 +1,13 @@
 import React, {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
+import {useMediaQuery} from "react-responsive";
 
 const Contact = () => {
+    const isSmall = useMediaQuery({ maxWidth: 440 });
+    const isMobile = useMediaQuery({ maxWidth: 768 });
+    const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
+
+
     const formRef = useRef();
 
     const [loading, setLoading] = useState(false);
@@ -55,7 +61,7 @@ const Contact = () => {
     return (
         <section className='c-space my-20' id='contact'>
             <div className='relative min-h-screen flex items-center justify-center flex-col'>
-                <img src='/assets/terminal.png' alt='terminal background' className='absolute inset-0 min-h-screen' />
+                {!isMobile || !isSmall ? <img src='/assets/terminal.png' alt='terminal background' className='absolute inset-0 min-h-screen' /> : null}
 
                 <div className='contact-container'>
                     <h3 className='head-text'>Let's Talk</h3>
