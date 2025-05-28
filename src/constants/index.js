@@ -25,8 +25,209 @@ export const clientReviews = []; // COMING SOON
 
 export const myProjects = [
     {
+        title: 'Cargo District Map',
+        desc: 'Interactive live map with admin panel and real-time location tracking for local businesses in the Cargo District in Wilmington, NC. This project provides an engaging way to explore businesses in this unique district.',
+        subdesc: 'Built with React Native, Express, React-rnd, TypeScript, and PostgreSQL, this app delivers a seamless mapping experience with real-time updates and administrative controls.',
+        href: 'https://cargodistrictmap.com/',
+        texture: '/textures/project/cargomap-app.mov',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#3A506B',
+            border: '0.2px solid #5BC0BE',
+            boxShadow: '0px 0px 60px 0px #5BC0BE4D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React Native',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Express.js',
+                path: '/assets/express.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'PostgreSQL',
+                path: '/assets/postgresql.svg',
+            },
+        ],
+    },
+    {
+        title: 'Templo - Hispanic Church Website',
+        desc: 'A modern, responsive website for a Hispanic local church in Wilmington, NC. The site offers an inviting digital presence for the congregation and visitors alike.',
+        subdesc: 'Developed with Next.js and GSAP for smooth animations and transitions, this project showcases advanced front-end development techniques while maintaining accessibility.',
+        href: 'https://github.com/cjgarcia12/templo',
+        texture: '/textures/project/church-website.mov',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#F8F9FA',
+            border: '0.2px solid #DEE2E6',
+            boxShadow: '0px 0px 60px 0px #ADB5BD4D',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Next.js',
+                path: '/assets/nextjs.png',
+            },
+            {
+                id: 2,
+                name: 'GSAP',
+                path: '/assets/gsap.ico',
+            },
+            {
+                id: 3,
+                name: 'TailwindCSS',
+                path: '/assets/tailwindcss.png',
+            },
+            {
+                id: 4,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+        ],
+    },
+    {
+        title: 'Phrayz - AI-Powered Content Creation Platform',
+        desc: 'Phrayz empowers marketers to craft relevant content faster using industry intelligence and AI. The platform aggregates industry knowledge to automatically generate marketing material that converts.',
+        subdesc: 'This project includes both the landing page built with HTML/CSS and the application built with React, Express, TypeScript, and MongoDB, delivering a comprehensive content creation solution.',
+        href: 'https://phrayz.com/',
+        texture: '/textures/project/phrayz.mov',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#E9ECEF',
+            border: '0.2px solid #CED4DA',
+            boxShadow: '0px 0px 60px 0px #6C757D4D',
+        },
+        spotlight: '/assets/spotlight3.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Express.js',
+                path: '/assets/express.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'MongoDB',
+                path: '/assets/mongodb.png',
+            },
+        ],
+    },
+    {
+        title: 'Shuttle Works - Transportation Management App',
+        desc: 'A comprehensive driver app for a transportation SaaS platform that enables businesses to set up and manage fixed-route shuttle services with real-time tracking and branded customer experiences.',
+        subdesc: 'Developed with Flutter, this mobile application features live location tracking, multi-tenant architecture, and seamless integration with a web-based tracking system for passengers.',
+        href: 'https://shuttleworks.ai/',
+        texture: '/textures/project/shuttleworks.mov',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#023E8A',
+            border: '0.2px solid #0077B6',
+            boxShadow: '0px 0px 60px 0px #0096C74D',
+        },
+        spotlight: '/assets/spotlight4.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Flutter',
+                path: '/assets/flutter.png',
+            },
+            {
+                id: 2,
+                name: 'Dart',
+                path: '/assets/dart.png',
+            },
+        ],
+    },
+    {
+        title: 'Tidal Cans - Trash Can Management Service',
+        desc: 'An innovative service similar to Uber but for trash cans, allowing vacation homeowners and property managers to automate trash can placement and retrieval on collection days.',
+        subdesc: 'Built with React Native, Express, PostgreSQL, and TypeScript, this platform features a customer portal, subscription management, and a gig workforce system for service providers.',
+        href: 'https://www.tidalcans.com/',
+        texture: '/textures/project/tidal-cans.mov',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#1A535C',
+            border: '0.2px solid #4ECDC4',
+            boxShadow: '0px 0px 60px 0px #4ECDC44D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React Native',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Express.js',
+                path: '/assets/express.png',
+            },
+            {
+                id: 3,
+                name: 'PostgreSQL',
+                path: '/assets/postgresql.png',
+            },
+            {
+                id: 4,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+        ],
+    },
+    {
+        title: 'Complex Cuts - Barber Shop Website',
+        desc: 'A stylish landing page for a local barber shop in Wilmington, NC, located in the Cargo District. The site provides essential business information and online appointment booking.',
+        subdesc: 'Crafted with Next.js and Tailwind CSS, this project demonstrates modern web development practices with a focus on performance, responsive design, and user experience.',
+        href: 'https://complexbusinesses.com/',
+        texture: '/textures/project/complexcuts.mov',
+        logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#212529',
+            border: '0.2px solid #495057',
+            boxShadow: '0px 0px 60px 0px #6C757D4D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Next.js',
+                path: '/assets/nextjs.png',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: '/assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'JavaScript',
+                path: '/assets/javascript.png',
+            },
+        ],
+    },
+    {
         title: 'Rep4y - P2P Recurring Payments App',
-        desc: 'Rep4y is a peer-to-peer payment platform designed to simplify shared expenses by automating recurring payments between users. Whether it’s splitting bills, subscriptions, or shared services, Rep4y makes managing monthly payments seamless.',
+        desc: "Rep4y is a peer-to-peer payment platform designed to simplify shared expenses by automating recurring payments between users. Whether it's splitting bills, subscriptions, or shared services, Rep4y makes managing monthly payments seamless.",
         subdesc: 'Built as a robust full-stack application with Supabase, React, Node.js, Shadcn, and TailwindCSS. Rep4y provides a secure, user-friendly experience for all types of recurring payments.',
         href: 'http://rep4y.com/',
         texture: '/textures/project/project1.mp4',
@@ -62,7 +263,7 @@ export const myProjects = [
     },
     {
         title: 'Cococlem - Inclusive Fashion Shopify Project',
-        desc: 'Cococlem is an accessible fashion brand, specializing in clothing and earrings that cater to everyone. This project involved designing a tailored page and developing a custom Shopify app to introduce a "Mix & Match" discount feature for earrings.',
+        desc: "Cococlem is an accessible fashion brand, specializing in clothing and earrings that cater to everyone. This project involved designing a tailored page and developing a custom Shopify app to introduce a 'Mix & Match' discount feature for earrings.",
         subdesc: 'This project showcases expertise in e-commerce design and custom Shopify app development. The app provides a seamless discounting feature for customers, enhancing the shopping experience and adding flexibility to product bundling.',
         href: 'https://www.cococlem.com/pages/mix-match-15-off',
         texture: '/textures/project/project2.mp4',
@@ -240,7 +441,6 @@ export const myProjects = [
             },
         ],
     }
-
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
